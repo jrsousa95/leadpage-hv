@@ -1,0 +1,374 @@
+header {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar {
+  padding: 0 20px;
+  max-width: 1200px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+  float: left;
+}
+
+.botao {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0;
+  position: relative;
+  cursor: pointer;
+  display: none;
+}
+
+.botao::after {
+  content: "";
+
+  position: absolute;
+  top: 35%;
+  left: 15%;
+
+  width: 70%;
+  height: 5%;
+  border-radius: 5px;
+  background-color: #88221b;
+}
+
+.botao::before {
+  content: "";
+
+  position: absolute;
+  top: 55%;
+  left: 15%;
+
+  width: 70%;
+  height: 5%;
+  border-radius: 5px;
+  background-color: #88221b;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-left: 10px;
+}
+
+li a {
+  font-weight: bold;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.822);
+  transition: all ease 0.3s;
+}
+
+li a:hover {
+  color: #ee5610;
+}
+
+body {
+  padding-top: 100px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(./img/background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hapvida{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  padding: 10px 70px;
+  align-items: center;
+}
+
+.presentation {
+  width: 70%;
+  display: inline-block;
+  color: #fff;
+}
+
+.getThePriceList {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(255, 68, 0);
+  border-radius: 5px;
+
+}
+
+.form {
+  background-color: #fff;
+  text-align: center;
+  width: 380px;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  color: #C73328;
+  position: relative;
+}
+
+.formData {
+  color: rgba(255, 68, 0, 0.89);
+  font: bold;
+}
+#nome, #email, #fone{
+  height: 30px;
+  border-radius: 10px;
+  border-color: #88221b;
+}
+
+.button-wpp,
+.submit-button {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font: bold;
+}
+
+.submit-button {
+  background-color: #C73328;
+}
+
+.submit-button:hover {
+  background-color: #88221b;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.button-wpp {
+  background-color: #08f37d;
+}
+
+.button-wpp:hover {
+  background-color: #42f74bbb;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.differentials{
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
+  justify-content:center;
+  padding-bottom: 30px;
+  margin: auto;
+}
+.differentials-general{
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.differentials-tittle{
+  text-align: center;
+  padding-top: 20px;
+  color: #285CC6;
+  font-size: 30px;
+}
+.block{
+  color: #fff;
+  background-color: #285CC6;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+}
+.block img{
+  width: 50px;
+}
+.mei{
+  background-color: #285CC6;
+  color: #fff;
+  height: 300px;
+  padding: 30px;
+}
+.mei h1{
+ padding-left: 30px; 
+ font-size: 45px;
+ margin: 0;
+}
+.mei h3{
+  font-size: 25px;
+
+}
+.mei img{
+  float: right;
+  width: 250px;
+}
+.mei-block{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.hosp{
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(./img/hospital-hap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 300px;
+  display: flex;
+  width: 100%;
+}
+.info{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+}
+.number{
+  font-size: 45px;
+  color: #ffe500;
+  font-weight: bold;
+}
+.hops-info{
+  width: 200px;
+  margin: 25px;
+}
+footer {
+  width:auto;
+  background-color: #fff;
+  color: #C73328;
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-weight: bold;
+}
+.contacts {
+  font-size: 20px;
+}
+
+.contacts img {
+  width: 30px;
+}
+
+.ig img {
+  width: 40px;
+}
+
+.icon-footer,
+.contacts,
+.insta {
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.icon-footer img {
+  width: 200px;
+}
+
+.insta a {
+  align-content: center;
+}
+
+.developer {
+  color: #C73328;
+
+}
+
+.developer a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  color: #C73328;
+  cursor: pointer;
+}
+@media screen and (max-width: 980px) {
+  .botao {
+    display: block;
+    z-index: 999;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+
+    height: 100vh;
+    margin: 0;
+    background-color: #ee5610;
+
+    width: 100%;
+    max-width: 200px;
+
+    flex-direction: column;
+
+    padding: 80px 20px;
+
+    transition: 0.5s ease;
+
+  }
+  .menu.active{
+    right: 0;
+  }
+  li a {
+    color: #fff;
+  }
+  li a:hover{
+    color: #88221b;
+  }
+  body{
+    display: inline-block;
+    text-align: center;
+  }
+  .presentation{
+    width: 100%;
+  }
+  aside{
+    display: inline-block;
+  }
+  .getThePriceList{
+    display: inline-block;
+  }
+  .container, .differentials-general{
+    display: inline-block;
+    justify-content: center;
+  }
+  .block{
+    margin-bottom: 15px;
+  }
+  .mei h1{
+    font-size: 25px;
+  }
+  .mei-block h3{
+    font-size: 20px;
+  }
+  .info{
+    display: inline-block;
+  }
+  .hosp{
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+  footer{
+    display: inline-block;
+    width: 100%;
+  }
+}
