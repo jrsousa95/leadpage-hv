@@ -1,1 +1,1 @@
-Sistema desenvolvido para demostração de planos de saúde
+Sistema desenvolvido para demostração de planos de saúde.
