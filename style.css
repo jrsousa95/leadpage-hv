@@ -303,15 +303,18 @@ footer {
   cursor: pointer;
 }
 @media screen and (max-width: 980px) {
+  body{
+    font-size: small;
+  }
   .botao {
     display: block;
     z-index: 999;
   }
 
   .menu {
-    position: fixed;
+    position:fixed;
     top: 0;
-    right: -100%;
+    right: 0;
 
     height: 100vh;
     margin: 0;
@@ -328,7 +331,7 @@ footer {
 
   }
   .menu.active{
-    right: 0;
+    right: -100%;
   }
   li a {
     color: #fff;
