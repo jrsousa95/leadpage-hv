@@ -1,6 +1,7 @@
-body{
+body {
   margin: 0 auto;
 }
+
 header {
   width: 100%;
   background-color: #fff;
@@ -21,7 +22,7 @@ header {
 }
 
 .logo img {
-  width: 200px;
+  width: 120px;
   float: left;
 }
 
@@ -86,59 +87,60 @@ li a:hover {
 }
 
 body {
-  padding-top: 100px;
-  height: 100%;
+  margin-top: 100px;
   font-family: 'Montserrat', sans-serif;
   background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(./img/background-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.hapvida{
+
+.hapvida {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
 }
 
 .container {
-  height: 100%;
-  display: flex;
-  padding: 10px 70px;
+  padding: 15px 50px;
   align-items: center;
+  display: flex;
 }
 
 .presentation {
-  width: 70%;
-  display: inline-block;
   color: #fff;
+  margin: 20px;
 }
 
 .getThePriceList {
-  width: 50%;
+  width: 320px;
+  margin: 15px;
   text-align: center;
   color: #fff;
   background-color: rgb(255, 68, 0);
   border-radius: 5px;
-
 }
 
 .form {
+  margin: 0 auto;
+  float: right;
   background-color: #fff;
   text-align: center;
-  width: 380px;
-  height: auto;
+  width: auto;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 30px;
   color: #C73328;
-  position: relative;
+
 }
 
-.formData {
-  color: rgba(255, 68, 0, 0.89);
-  font: bold;
+.solicitar-txt {
+  font-size: 25px;
+  font-weight: bold;
 }
-#nome, #email, #fone{
-  height: 30px;
+
+#nome,
+#email,
+#fone {
+  height: 25px;
   border-radius: 10px;
   border-color: #88221b;
 }
@@ -165,71 +167,77 @@ body {
 }
 
 .button-wpp {
-  background-color: #08f37d;
+  background-color: #0adf6a;
 }
 
 .button-wpp:hover {
-  background-color: #42f74bbb;
+  background-color: #0aca5aef;
   transition: all ease 0.3s;
   cursor: pointer;
 }
-.differentials{
+
+.differentials {
   background-color: #fff;
   width: 100%;
-  align-items: center;
-  justify-content:center;
-  padding-bottom: 30px;
-  margin: auto;
 }
-.differentials-general{
-  display: flex;
-  width: 100%;
-  margin-bottom: 30px;
-}
-.differentials-tittle{
+
+.differentials-tittle {
   text-align: center;
   padding-top: 20px;
   color: #285CC6;
-  font-size: 30px;
+  font-size: 25px;
 }
-.block{
+
+.differentials-general{
+  display: flex;
+  justify-content: center;
+}
+
+.block {
   color: #fff;
   background-color: #285CC6;
   width: 320px;
   height: 320px;
+  margin: 15px auto;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
-  margin: auto;
+  margin: 15px 30px;
 }
-.block img{
+
+.block img {
   width: 50px;
 }
-.mei{
+
+.mei {
   background-color: #285CC6;
   color: #fff;
-  height: 300px;
   padding: 30px;
 }
-.mei h1{
- padding-left: 30px; 
- font-size: 45px;
- margin: 0;
+
+.mei h1 {
+  padding-left: 30px;
+  font-size: 35px;
+  margin: 0 auto;
 }
-.mei h3{
+
+.mei h3 {
   font-size: 25px;
 
 }
-.mei img{
+
+.mei img {
   float: right;
   width: 250px;
 }
-.mei-block{
+
+.mei-block {
   display: flex;
   align-items: center;
   padding-left: 30px;
 }
-.hosp{
+
+.hosp {
   background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(./img/hospital-hap.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,41 +246,46 @@ body {
   display: flex;
   width: 100%;
 }
-.info{
+
+.info {
   display: flex;
   text-align: center;
   margin: auto;
   color: #fff;
   font-weight: bold;
 }
-.number{
-  font-size: 45px;
+
+.number {
+  font-size: 50px;
   color: #ffe500;
   font-weight: bold;
 }
-.hops-info{
+
+.hops-info {
   width: 200px;
   margin: 25px;
 }
+
 footer {
-  width:auto;
+  width: 100%;
   background-color: #fff;
   color: #C73328;
   display: flex;
-  position: relative;
-  align-items: center;
+  justify-content: center;
   font-weight: bold;
+  align-items: center;
 }
+
 .contacts {
   font-size: 20px;
 }
 
 .contacts img {
-  width: 30px;
+  width: 25px;
 }
 
 .ig img {
-  width: 40px;
+  width: 25px;
 }
 
 .icon-footer,
@@ -283,7 +296,7 @@ footer {
 }
 
 .icon-footer img {
-  width: 200px;
+  width: 150px;
 }
 
 .insta a {
@@ -302,17 +315,16 @@ footer {
   color: #C73328;
   cursor: pointer;
 }
+
 @media screen and (max-width: 980px) {
-  body{
-    font-size: small;
-  }
+
   .botao {
     display: block;
     z-index: 999;
   }
 
   .menu {
-    position:fixed;
+    position: fixed;
     top: 0;
     right: 0;
 
@@ -328,10 +340,29 @@ footer {
     padding: 80px 20px;
 
     transition: 0.5s ease;
+    text-align: center;
 
   }
-  .menu.active{
+
+  .menu.active {
     right: -100%;
+  }
+  body,
+  .container,
+  .differentials,
+  .differentials-general,
+  .mei,
+  .mei-block,
+  .block,
+  .info,
+  .hops-info,
+  .hosp,
+  footer {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
   }
   li a {
     color: #fff;
@@ -339,42 +370,32 @@ footer {
   li a:hover{
     color: #88221b;
   }
-  body{
-    display: inline-block;
-    text-align: center;
+  .container{
+    margin-top: 50px;
   }
-  .presentation{
-    width: 100%;
-  }
-  aside{
-    display: inline-block;
-  }
-  .getThePriceList{
-    display: inline-block;
-  }
-  .container, .differentials-general{
-    display: inline-block;
-    justify-content: center;
+  .form{
+    width: 85%;
+    margin: 20px;
+    align-items: center;
   }
   .block{
-    margin-bottom: 15px;
+    width: 85%;
+    margin: 10px 30px; 
+    padding: 0;
   }
   .mei h1{
     font-size: 25px;
+    margin: 30px;
   }
   .mei-block h3{
     font-size: 20px;
+    margin: 30px;
   }
-  .info{
-    display: inline-block;
+  .block img{
+    padding-top: 15px;
   }
   .hosp{
     height: auto;
-    margin: 0 auto;
-    padding: 0;
   }
-  footer{
-    display: inline-block;
-    width: 100%;
-  }
+
 }
